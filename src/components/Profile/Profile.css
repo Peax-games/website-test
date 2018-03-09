@@ -1,0 +1,275 @@
+.main-profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    background: #363537;
+    box-shadow: 0 0 540px 10px #5762D5 inset, 0 0 0 0 #5762D5;
+}
+
+.user-info {
+    display: flex;
+    height: 80%;
+    width: 27%;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info-box {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 650px;
+    flex-direction: column;
+}
+
+.user-stats {
+    display: flex;
+    height: 80%;
+    width: 32%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #5762D5;
+    border-radius: 6px;
+    background: #363537;
+    margin-top: 20px;
+}
+
+.stat-tile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 94%;
+    height: 150px;
+    background: #242130;
+    border: 2px solid #5762D5;
+    color: #B4334B;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.standings-tile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 94%;
+    height: 150px;
+    background: #242130;
+    border: 2px solid #5762D5;
+    color: #B4334B;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.stat-tile-header {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.standings-tile-header {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.wins-losses {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    font-size: 19px; 
+}
+
+.standings {
+    display: flex;
+    height: 80%;
+    width: 32%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #5762D5;
+    border-radius: 6px;
+    background: #363537;
+    margin-top: 20px;
+}
+
+.user-profile-img {
+    height: 250px;
+    width: 250px;
+    border: 3px solid #5762D5;
+    border-radius: 150px;
+}
+
+.profile-username {
+    font-size: 28px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.bio-header {
+    font-size: 32px;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.profile-bio {
+    height: 200px;
+    width: 100%;
+    color: #B4334B;
+    font-size: 18px;
+    line-height: 150%;
+    border: 3px solid #5762D5;
+    border-radius: 6px;
+    background: #242130;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 0px;
+    overflow-y: scroll;
+}
+
+.profile-bio::-webkit-scrollbar {
+    width: 3px;
+    display: none;
+}
+
+.profile-bio::-webkit-scrollbar-thumb {
+    background: #5762D5;
+    outline: 0;
+    border-radius: 50px;
+    box-shadow: 0, 4px, 10px rgba(0,0,0,0.5)
+}
+
+.profile-bio::-webkit-scrollbar-track {
+    background: #363537
+}
+
+.bio-words {
+    margin: 25px;
+}
+
+.stats-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 15px;
+    border-bottom: 3px solid #5762D5;
+}
+
+.standings-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 15px;
+    border-bottom: 3px solid #5762D5;
+}
+
+.user-stats-actual {
+    width: 95%;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-right: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 19px;
+    line-height: 190%;
+    color: #363537;
+    overflow-y: scroll;
+}
+
+.user-stats-actual::-webkit-scrollbar {
+    width: 3px;
+    display: none;
+}
+
+.user-stats-actual::-webkit-scrollbar-thumb {
+    background: #5762D5;
+    outline: 0;
+    border-radius: 50px;
+    box-shadow: 0, 4px, 10px rgba(0,0,0,0.5)
+}
+
+.user-stats-actual::-webkit-scrollbar-track {
+    background: #363537
+}
+
+.standings-actual {
+    width: 95%;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 19px;
+    line-height: 190%;
+    color: #363537;
+    overflow-y: scroll;
+}
+
+.standings-actual::-webkit-scrollbar {
+    width: 3px;
+    display: none;
+}
+
+.standings-actual::-webkit-scrollbar-thumb {
+    background: #5762D5;
+    outline: 0;
+    border-radius: 50px;
+    box-shadow: 0, 4px, 10px rgba(0,0,0,0.5)
+}
+
+.standings-actual::-webkit-scrollbar-track {
+    background: #363537
+}
+
+.update-profile-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 140px;
+    border: none;
+    border-radius: 6px;
+    background: #5762D5;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-decoration: underline #5762D5;
+}
+
+@media(max-width:900px){
+    .main-profile-container {
+        flex-direction: column;
+        height: 2700px;
+    }
+    .user-info {
+        width: 80%;
+        height: 32%;
+        /* margin-top: 70px; */
+    }
+    .user-info-box {
+        margin-top: 130px;
+    }
+    .user-stats {
+        width: 80%;
+        height: 32%;
+    }
+    .standings {
+        width: 80%;
+        height: 32%;
+        margin-bottom: 80px;
+    }
+}

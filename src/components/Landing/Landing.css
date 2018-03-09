@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:500');
+
+/*/////////////// NORMAL VIEW ///////////////*/
+
+.landing_main_container {
+color: #fff;
+background: #363537;
+box-shadow: 0 0 540px 10px #5762D5 inset, 0 0 0 0 #5762D5;
+width: 100%;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+}
+
+.landing-logo {
+display: flex;
+flex-direction: row;
+width: 700px;
+justify-content: space-between;
+margin-bottom: -230px;
+}
+
+.landing-logo p {
+font-size: 132px;
+font-family: 'Orbitron', sans-serif;
+}
+
+.arrow-slider-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.game-slider-container {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 125px;
+}
+
+.left-arrow {
+width: 0;
+height: 0;
+/* border-color: #5762D5; */
+border-radius: 120px;
+border-top: 60px solid transparent;
+border-bottom: 60px solid transparent;
+margin-right: 10px;
+border-right: 60px solid #5762D5;
+box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+transition: all 90ms ease-in-out;
+margin-top: 130px;
+cursor: pointer;
+}
+
+.left-arrow:hover {
+/* box-shadow: 0 0 10px 0 #5762D5 inset, 0 0 10px 4px #5762D5; */
+border-radius: 120px;
+border-top: 65px solid transparent;
+border-bottom: 65px solid transparent;
+/* margin-left: 10px; */
+border-right: 65px solid #5762D5;
+box-shadow: 0 0 45px 45px #5762D5 inset, 0 0 0 0 #5762D5;
+transition: all 90ms ease-in-out;
+}
+
+.game-slider {
+height: 400px;
+width: 900px;
+background-size: cover;
+border: 3px solid #5762D5;
+border-radius: 6px;
+}
+
+.right-arrow {
+width: 0;
+height: 0;
+/* border-color: #5762D5; */
+border-radius: 120px;
+border-top: 60px solid transparent;
+border-bottom: 60px solid transparent;
+margin-left: 10px;
+border-left: 60px solid #5762D5;
+box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+transition: all 90ms ease-in-out;
+margin-top: 130px;
+cursor: pointer;
+}
+
+.right-arrow:hover {
+/* box-shadow: 0 0 10px 0 #5762D5 inset, 0 0 10px 4px #5762D5; */
+border-radius: 120px;
+border-top: 65px solid transparent;
+border-bottom: 65px solid transparent;
+/* margin-left: 10px; */
+border-left: 65px solid #5762D5;
+box-shadow: 0 0 45px 45px #5762D5 inset, 0 0 0 0 #5762D5;
+transition: all 90ms ease-in-out;
+}
+
+.landing-chat-container {
+width: 68%;
+}
+
+.game-list-container {
+height: 300px;
+width: 68%;
+background-color: #242130;
+margin-top: 70px;
+border: 3px solid #5762D5;
+border-radius: 6px;
+overflow-y: scroll;
+margin-bottom: 150px;
+}
+
+.game-list-container::-webkit-scrollbar {
+    width: 3px;
+    display: none;
+}
+
+.game-list-container::-webkit-scrollbar-thumb {
+    background: #5762D5;
+    outline: 0;
+    border-radius: 50px;
+    box-shadow: 0, 4px, 10px rgba(0,0,0,0.5)
+}
+
+.game-list-container::-webkit-scrollbar-track {
+    background: #363537
+}
+
+.global-chat-header {
+margin-bottom: -50px;
+margin-top: 60px;
+font-family: 'Orbitron', sans-serif;
+font-size: 30px;
+}
+
+.game-list-header {
+margin-bottom: -50px;
+margin-top: 60px;
+font-family: 'Orbitron', sans-serif;
+font-size: 30px;
+}
+
+.listed-game-1-pong {
+margin-top: 10px;
+background-image: url('./../../Pictures/ponggamejpeg.jpg');
+background-size: contain;
+height: 60px;
+width: 105px;
+}
+
+.game-container {
+display: flex;
+align-items: center;
+width: 280px;
+justify-content: space-between;
+cursor: pointer;
+}
+
+.game-text {
+font-size: 16;
+font-family: 'Orbitron', sans-serif;
+color: #5762D5;
+}
+
+.game-text:hover {
+color: yellow;
+cursor: pointer;
+}
+
+.listed-game-2-cyberorb {
+margin-top: 10px;
+background-image: url('./../../Pictures/cyberorbjpeg.jpg');
+background-size: contain;
+height: 60px;
+width: 105px;
+}
+
+.listed-game-3 {
+margin-top: 10px;
+background-image: url('./../../Pictures/tanks1jpeg.jpg');
+background-size: contain;
+height: 60px;
+width: 105px;
+}
+
+.listed-game-4-brickbreaker {
+margin-top: 10px;
+background-image: url('./../../Pictures/breakoutjpeg.jpg');
+background-size: contain;
+height: 60px;
+width: 105px;
+}
+
+.listed-game-3-tanks {
+margin-top: 10px;
+background-image: url('./../../Pictures/tanks1jpeg.jpg');
+background-size: contain;
+height: 60px;
+width: 105px;
+}
+
+.listed-game-5-invader {
+margin-top: 10px;
+background-image: url('./../../Pictures/invaders1jpeg.jpg');
+background-size: contain;
+height: 60px;
+width: 105px;
+}
+
+
+
+/*/////////////// IPAD PRO VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    
+    .game-slider {
+        height: 400px;
+        width: 800px;
+        background-size: cover;
+        border: 3px solid #5762D5;
+        border-radius: 6px;
+    }
+}
+
+
+
+/*/////////////// IPAD VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .game-slider {
+    height: 300px;
+    width: 600px;
+    background-size: cover;
+    border: 3px solid #5762D5;
+    border-radius: 6px;
+    }
+}
+
+
+
+/*/////////////// iPHONE X VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .game-slider {
+        height: 190px;
+        width: 300px;
+        background-size: cover;
+        border: 3px solid #5762D5;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+
+    .left-arrow {
+        width: 0;
+        height: 0;
+        /* border-color: #5762D5; */
+        border-radius: 120px;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        margin-right: 10px;
+        border-right: 20px solid #5762D5;
+        box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+        transition: all 90ms ease-in-out;
+        margin-top: 130px;
+        cursor: pointer;
+        }
+
+        .right-arrow {
+        width: 0;
+        height: 0;
+        /* border-color: #5762D5; */
+        border-radius: 120px;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        margin-left: 10px;
+        border-left: 20px solid #5762D5;
+        box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+        transition: all 90ms ease-in-out;
+        margin-top: 130px;
+        cursor: pointer;
+        }
+
+        .landing-logo {
+            display: flex;
+            flex-direction: row;
+            width: 300px;
+            justify-content: space-between;
+            margin-bottom: -230px;
+        }
+
+        .landing-logo p {
+            font-size: 90px;
+            font-family: 'Orbitron', sans-serif;
+        }
+}
+
+
+
+/*/////////////// iPHONE 8 PLUS VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 414px) {
+    .landing-logo {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        justify-content: space-between;
+        margin-bottom: -230px;
+    }
+
+    .landing-logo p {
+        font-size: 90px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .game-slider {
+        height: 190px;
+        width: 300px;
+        background-size: cover;
+        border: 3px solid #5762D5;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+
+    .left-arrow {
+        width: 0;
+        height: 0;
+        border-radius: 120px;
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        margin-right: 10px;
+        border-right: 30px solid #5762D5;
+        box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+        transition: all 90ms ease-in-out;
+        margin-top: 130px;
+        cursor: pointer;
+    }
+
+    .right-arrow {
+        width: 0;
+        height: 0;
+        border-radius: 120px;
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        margin-left: 10px;
+        border-left: 30px solid #5762D5;
+        box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+        transition: all 90ms ease-in-out;
+        margin-top: 130px;
+        cursor: pointer;
+    }
+
+}
+
+
+
+/*/////////////// iPHONE 8 PLUS VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .left-arrow {
+        width: 0;
+        height: 0;
+        border-radius: 120px;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        margin-right: 10px;
+        border-right: 20px solid #5762D5;
+        box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+        transition: all 90ms ease-in-out;
+        margin-top: 130px;
+        cursor: pointer;
+    }
+
+    .right-arrow {
+        width: 0;
+        height: 0;
+        border-radius: 120px;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        margin-left: 10px;
+        border-left: 20px solid #5762D5;
+        box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+        transition: all 90ms ease-in-out;
+        margin-top: 130px;
+        cursor: pointer;
+    }
+}
+
+
+
+/*/////////////// GALAXY VIEW S5 ///////////////*/
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .landing-logo {
+        display: flex;
+        flex-direction: row;
+        width: 230px;
+        justify-content: space-between;
+        margin-bottom: -230px;
+    }
+
+    .landing-logo p {
+        font-size: 70px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .game-slider {
+        height: 190px;
+        width: 300px;
+        background-size: cover;
+        border: 3px solid #5762D5;
+        border-radius: 6px;
+        margin-top: 40px;
+    }
+    
+    .left-arrow {
+        width: 0;
+        height: 0;
+        border-radius: 120px;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        margin-right: 10px;
+        border-right: 15px solid #5762D5;
+        box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+        transition: all 90ms ease-in-out;
+        margin-top: 130px;
+        cursor: pointer;
+    }
+
+    .right-arrow {
+        width: 0;
+        height: 0;
+        border-radius: 120px;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        margin-left: 10px;
+        border-left: 15px solid #5762D5;
+        box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+        transition: all 90ms ease-in-out;
+        margin-top: 130px;
+        cursor: pointer;
+    }
+}

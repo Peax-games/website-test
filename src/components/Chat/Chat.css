@@ -1,0 +1,185 @@
+/*/////////////// NORMAL VIEW ///////////////*/
+
+.landing-chat-box {
+    height: 300px;
+    width: 100%;
+    background-color: #242130;
+    margin-top: 70px;
+    border: 3px solid #5762D5;
+    border-radius: 6px;
+    overflow-y: auto;
+}
+
+.landing-chat-box::-webkit-scrollbar {
+  width: 3px;
+  display: none;
+}
+
+.landing-chat-box::-webkit-scrollbar-thumb {
+  background: #5762D5;
+  outline: 0;
+  border-radius: 50px;
+  box-shadow: 0, 4px, 10px rgba(0,0,0,0.5)
+}
+
+.landing-chat-box::-webkit-scrollbar-track {
+  background: #363537
+}
+
+.chat-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.chat-input {
+  padding: 5.5px;
+  width: 500px;
+  border: 3px solid #5762D5;
+  border-radius: 3px;
+  font-size: 20px;
+  background-color: #555;
+  color: #fff;
+}
+
+.chat-button {
+  font-size: 19px;
+  font-weight: 500;
+  font-family: 'Orbitron', sans-serif;
+  border: 3px solid #5762D5;
+  border-radius: 3px;
+  margin-left: 7px;
+  padding: 7px;
+  background-color: #5762D5;
+  color: #fff
+}
+
+.chat-button:hover {
+  background-color: #9C0D38;
+  border: 3px solid #9C0D38;
+}
+
+
+
+/*/////////////// IPAD PRO VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 1024px) {
+  .landing-chat-box {
+    height: 250px;
+    width: 100%;
+    background-color: #242130;
+    margin-top: 70px;
+    border: 3px solid #5762D5;
+    border-radius: 6px;
+    overflow-y: auto;
+  }
+}
+
+
+
+/*/////////////// IPAD VIEW ///////////////*/
+
+
+
+@media only screen and (max-width: 768px) {
+  .landing-chat-box {
+    height: 250px;
+    width: 100%;
+    background-color: #242130;
+    margin-top: 70px;
+    border: 3px solid #5762D5;
+    border-radius: 6px;
+    overflow-y: auto;
+  }
+}
+
+
+
+/*/////////////// iPHONE X VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 375px) {
+  .landing-chat-box {
+    height: 190px;
+    width: 100%;
+    background-color: #242130;
+    margin-top: 70px;
+    border: 3px solid #5762D5;
+    border-radius: 6px;
+    overflow-y: auto;
+  }
+
+  .chat-input {
+    padding: 5.5px;
+    width: 200px;
+    border: 3px solid #5762D5;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: #555;
+    color: #fff;
+  }
+}
+
+
+
+/*/////////////// iPHONE 8 PLUS VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 414px) {
+  .landing-chat-box {
+    height: 190px;
+    width: 100%;
+    background-color: #242130;
+    margin-top: 70px;
+    border: 3px solid #5762D5;
+    border-radius: 6px;
+    overflow-y: auto;
+  }
+
+  .chat-input {
+    padding: 5.5px;
+    width: 200px;
+    border: 3px solid #5762D5;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: #555;
+    color: #fff;
+  }
+}
+
+
+
+/*/////////////// iPHONE 8 VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 375px) {
+  .landing-chat-box {
+    height: 190px;
+    width: 100%;
+    background-color: #242130;
+    margin-top: 70px;
+    border: 3px solid #5762D5;
+    border-radius: 6px;
+    overflow-y: auto;
+  }
+
+  .chat-input {
+    padding: 5.5px;
+    width: 200px;
+    border: 3px solid #5762D5;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: #555;
+    color: #fff;
+  }
+}

@@ -1,0 +1,186 @@
+.main-login-container {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    color: #fff;
+    background: #363537;
+    box-shadow: 0 0 540px 10px #5762D5 inset, 0 0 0 0 #5762D5;
+    height: 100vh;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+    margin-bottom: 300px;
+    margin-top: -100px;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    border-color: #5762D5;
+    border-radius: 5px;
+    background: #363537;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+    transition: all 90ms ease-in-out;
+    width: 160px;
+    height: 80px;
+    text-decoration: underline #5762D5;
+}
+
+.guest-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    border-color: #5762D5;
+    border-radius: 5px;
+    background: #363537;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #5762D5 inset, 0 0 0 0 #5762D5;
+    transition: all 90ms ease-in-out;
+    width: 160px;
+    height: 80px;
+    text-decoration: underline #5762D5;
+}
+
+.login-logo {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.login-logo p {
+    font-size: 132px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+/*/////////////// iPHONE X VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .login-logo {
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+        margin-right: 160px;
+        margin-bottom: 300px;
+    }
+    
+    .login-logo p {
+        font-size: 100px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .login-buttons {
+        display: flex;
+        flex-direction: row;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/*/////////////// iPHONE 8 PLUS VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 414px) {
+    .login-logo {
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+        margin-right: 160px;
+        margin-bottom: 300px;
+    }
+    
+    .login-logo p {
+        font-size: 100px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .login-buttons {
+        display: flex;
+        flex-direction: row;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/*/////////////// iPHONE 8 VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .login-logo {
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+        margin-right: 160px;
+        margin-bottom: 300px;
+    }
+    
+    .login-logo p {
+        font-size: 100px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .login-buttons {
+        display: flex;
+        flex-direction: row;
+        width: 350px;
+        margin-bottom: 60px;
+    }
+
+}
+
+
+
+/*/////////////// NEXUS 5X VIEW ///////////////*/
+
+
+
+
+@media only screen and (max-width: 412px) {
+    .login-logo {
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+        margin-right: 160px;
+        margin-bottom: 300px;
+    }
+    
+    .login-logo p {
+        font-size: 100px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .login-buttons {
+        display: flex;
+        flex-direction: row;
+        width: 350px;
+        margin-bottom: 70px;
+    }
+
+}
