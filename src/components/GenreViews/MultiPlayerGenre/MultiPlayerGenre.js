@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './MultiPlayerGenre.css';
-import ships from './../../Pictures/shipsjpeg.jpg';
-import tanks1 from './../../Pictures/tanks1jpeg.jpg';
-import tanks2 from './../../Pictures/tanks2jpeg.jpg';
+import ships from './../../../Pictures/shipsjpeg.jpg';
+import tanks1 from './../../../Pictures/tanks1jpeg.jpg';
+import tanks2 from './../../../Pictures/tanks2jpeg.jpg';
 
 class MultiPlayerGenre extends Component {
     render(){

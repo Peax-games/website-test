@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import './ArcadeGenre.css';
-import breakout from './../../Pictures/breakoutjpeg.jpg';
-import gemmatch from './../../Pictures/gemmatchjpeg.jpg';
-import pong from './../../Pictures/ponggamejpeg.jpg';
-import invaders1 from './../../Pictures/invaders1jpeg.jpg';
-import invaders2 from './../../Pictures/invaders2jpeg.jpg';
-import Match3 from './../../Pictures/Match 3jpeg.jpg';
-import asteroids from './../../Pictures/asteroidsjpeg.jpg';
-import defender from './../../Pictures/defenderjpeg.jpg';
-import cyberorb from './../../Pictures/cyberorbjpeg.jpg';
-import snake from './../../Pictures/snakejpeg.jpg';
+import breakout from './../../../Pictures/breakoutjpeg.jpg';
+import gemmatch from './../../../Pictures/gemmatchjpeg.jpg';
+import pong from './../../../Pictures/ponggamejpeg.jpg';
+import invaders1 from './../../../Pictures/invaders1jpeg.jpg';
+import invaders2 from './../../../Pictures/invaders2jpeg.jpg';
+import Match3 from './../../../Pictures/Match 3jpeg.jpg';
+import asteroids from './../../../Pictures/asteroidsjpeg.jpg';
+import defender from './../../../Pictures/defenderjpeg.jpg';
+import cyberorb from './../../../Pictures/cyberorbjpeg.jpg';
+import snake from './../../../Pictures/snakejpeg.jpg';
 
 
 class ArcadeGenre extends Component {

@@ -1,7 +1,10 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 .footer-main-wrapper {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    
     height: 40px;
     width: 100%;
     background: #363537;
@@ -9,3 +12,22 @@
     position: fixed;
     bottom: 0;
 }
+
+.socialness a::before {
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    margin: 40px;
+    color: #5762D5;
+
+}
+.socialness a{
+    text-decoration: none;
+}
+
+.socialness a[href*="facebook.com"]::before { content: '\f09a'; }
+.socialness a[href*="plus.google.com"]::before { content: '\f0d5'; }
+.socialness a[href*="twitter.com"]::before { content: '\f099';}
+.socialness a[href*="instagram.com"]::before { content: '\f16d'; }
+.socialness a[href*="linkedin.com"]::before { content: '\f0e1'; }
+.socialness a[href*="reddit.com"]::before { content: '\f1a1'; }
+.socialness a[href*="youtube.com"]::before { content: '\f167'; }
