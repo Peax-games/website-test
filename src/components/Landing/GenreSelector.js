@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function GameSelector() {
 
@@ -8,8 +9,8 @@ export default function GameSelector() {
     }
     const LABELSSTYLES = {
         cursor: 'pointer',
-        borderTop: '1px solid black',
-        borderLeft: '1px solid black',
+        borderTop: '3px solid #5762D5',
+        borderLeft: '3px solid #5762D5',
         margin: '3px',
         padding: '5px',
         width: '150px',
@@ -18,8 +19,6 @@ export default function GameSelector() {
     const LABELTITLES = {
         display: 'flex',
         flexDirection: 'column',
-
-
     }
     const PANELS = {
         display: 'flex',
@@ -46,100 +45,114 @@ export default function GameSelector() {
             <input id={'multiplayer'} type="radio" name="Vpanel_select" style={CHECKSSTYLE} />
             <input id={'platform'} type="radio" name="Vpanel_select" style={CHECKSSTYLE} />
             <input id={'puzzle'} type="radio" name="Vpanel_select" style={CHECKSSTYLE} />
+            <input id={'racing'} type="radio" name="Vpanel_select" style={CHECKSSTYLE} />
+            <input id={'shooters'} type="radio" name="Vpanel_select" style={CHECKSSTYLE} />
             <input id={'sports'} type="radio" name="Vpanel_select" style={CHECKSSTYLE} />
             <input id={'strategy'} type="radio" name="Vpanel_select" style={CHECKSSTYLE} />
-
-            <nav style={LABELTITLES}>
-                <label style={LABELSSTYLES} htmlFor={'newGames'}>New Games</label>
-                <label style={LABELSSTYLES} htmlFor={'action'}>Action</label>
-                <label style={LABELSSTYLES} htmlFor={'adventure'}>Adventure</label>
-                <label style={LABELSSTYLES} htmlFor={'arcade'}>Arcade</label>
-                <label style={LABELSSTYLES} htmlFor={'board'}>Board</label>
-                <label style={LABELSSTYLES} htmlFor={'card'}>Card</label>
-                <label style={LABELSSTYLES} htmlFor={'mmo'}>MMO</label>
-                <label style={LABELSSTYLES} htmlFor={'mobile'}>Mobile</label>
-                <label style={LABELSSTYLES} htmlFor={'multiplayer'}>Multiplayer</label>
-                <label style={LABELSSTYLES} htmlFor={'platform'}>Platform</label>
-                <label style={LABELSSTYLES} htmlFor={'puzzle'}>Puzzle</label>
-                <label style={LABELSSTYLES} htmlFor={'sports'}>Sports</label>
-                <label style={LABELSSTYLES} htmlFor={'strategy'}>Strategy</label>
-            </nav>
-
+                <nav style={LABELTITLES}>
+                    <label style={LABELSSTYLES} htmlFor={'newGames'}>New Games</label>
+                    <label style={LABELSSTYLES} htmlFor={'action'}>Action</label>
+                    <label style={LABELSSTYLES} htmlFor={'adventure'}>Adventure</label>
+                    <label style={LABELSSTYLES} htmlFor={'arcade'}>Arcade</label>
+                    <label style={LABELSSTYLES} htmlFor={'board'}>Board</label>
+                    <label style={LABELSSTYLES} htmlFor={'card'}>Card</label>
+                    <label style={LABELSSTYLES} htmlFor={'mmo'}>MMO</label>
+                    <label style={LABELSSTYLES} htmlFor={'mobile'}>Mobile</label>
+                    <label style={LABELSSTYLES} htmlFor={'multiplayer'}>Multiplayer</label>
+                    <label style={LABELSSTYLES} htmlFor={'platform'}>Platform</label>
+                    <label style={LABELSSTYLES} htmlFor={'puzzle'}>Puzzle</label>
+                    <label style={LABELSSTYLES} htmlFor={'racing'}>Racing</label>
+                    <label style={LABELSSTYLES} htmlFor={'shooters'}>Shooters</label>
+                    <label style={LABELSSTYLES} htmlFor={'sports'}>Sports</label>
+                    <label style={LABELSSTYLES} htmlFor={'strategy'}>Strategy</label>
+                </nav>
             <div id={'newGamesPanel'} >
                 hello
             </div>
             <div id={'actionPanel'} >
                 <div>
                 </div>
-                <a href='#'><p>Check Out More Action Games...</p></a>
+                <Link to='/action'><p>Check Out More Action Games...</p></Link>
 
             </div>
             <div id={'adventurePanel'} >
                 <div>
                 </div>
-                <a href='#'><p>Check Out More Adventure Games...</p></a>
+                <Link to='/adventure'><p>Check Out More Adventure Games...</p></Link>
 
             </div>
             <div id={'arcadePanel'} >
                 <div>
                 </div>
-                <a href='#'><p>Check Out More Arcade Games...</p></a>
+                <Link to='/arcade'><p>Check Out More Arcade Games...</p></Link>
 
             </div>
             <div id={'boardPanel'} >
                 <div>
                 </div>
-                <a href='#'><p>Check Out More Board Games...</p></a>
+                <Link to='/board'><p>Check Out More Board Games...</p></Link>
 
             </div>
             <div id={'cardPanel'} >
                 <div>
                 </div>
-                <a href='#'><p>Check Out More Card Games...</p></a>
+                <Link to='/card'><p>Check Out More Card Games...</p></Link>
 
             </div>
             <div id={'mmoPanel'} >
                 <div>
                 </div>
-                <a href='#'><p>Check Out More MMO Games...</p></a>
+                <Link to='/mmo'><p>Check Out More MMO Games...</p></Link>
 
             </div>
             <div id={'mobilePanel'} >
                 <div>
                 </div>
-                <a href='#'><p>Check Out More Mobile Games...</p></a>
+                <Link to='/mobile'><p>Check Out More Mobile Games...</p></Link>
 
             </div>
             <div id={'multiplayerPanel'} >
                 <div>
                 </div>
-                <a href='#'><p>Check Out More Multiplayer Games...</p></a>
+                <Link to='/multiplayer'><p>Check Out More Multiplayer Games...</p></Link>
 
             </div>
             <div id={'platformPanel'} >
                 <div>
                 </div>
-                <a href='#'><p>Check Out More Platform Games...</p></a>
+                <Link to='/platform'><p>Check Out More Platform Games...</p></Link>
 
             </div>
             <div id={'puzzlePanel'}>
                 <div>
                 </div>
-                <a href='#'><p>Check Out More Puzzle Games...</p></a>
+                <Link to='/puzzle'><p>Check Out More Puzzle Games...</p></Link>
+
+            </div>
+            <div id={'racingPanel'} >
+                <div>
+                </div>
+                <Link to='/racing'><p>Check Out More Racings Games...</p></Link>
+
+            </div>
+            <div id={'shootersPanel'} >
+                <div>
+                </div>
+                <Link to='/shooters'><p>Check Out More Shooters Games...</p></Link>
 
             </div>
             <div id={'sportsPanel'} >
                 <div>
                 </div>
-                <a href='#'><p>Check Out More Sports Games...</p></a>
+                <Link to='/sports'><p>Check Out More Sports Games...</p></Link>
 
             </div>
             <div id={'strategyPanel'} >
                 <div>
                 </div>
-                <a href='#'><p>Check Out More Strategy Games...</p></a>
+                <Link to='#'><p>Check Out More Strategy Games...</p></Link>
 
             </div>
-        </div>
+        </div >
     )
 }

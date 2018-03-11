@@ -227,13 +227,15 @@ width: 105px;
 .panels >input[id="mmo"]:checked ~ nav label[for="mmo"],
 .panels >input[id="mobile"]:checked ~ nav label[for="mobile"],
 .panels >input[id="multiplayer"]:checked ~ nav label[for="multiplayer"],
-.panels >input[id="platform"]:checked ~ nav label[for="platform"]
-.panels >input[id="puzzle"]:checked ~ nav label[for="puzzle"]
-.panels >input[id="sports"]:checked ~ nav label[for="sports"]
+.panels >input[id="platform"]:checked ~ nav label[for="platform"],
+.panels >input[id="puzzle"]:checked ~ nav label[for="puzzle"],
+.panels >input[id="racing"]:checked ~ nav label[for="racing"],
+.panels >input[id="shooters"]:checked ~ nav label[for="shooters"],
+.panels >input[id="sports"]:checked ~ nav label[for="sports"],
 .panels >input[id="strategy"]:checked ~ nav label[for="strategy"]
 {
-    background-color: yellow;
-    color: black;
+    background-color: #E9D758;
+    color: #5762D5;
 }
 
 .panels > input[id="newGames"]:checked ~ div[id="newGamesPanel"],
@@ -245,9 +247,11 @@ width: 105px;
 .panels > input[id="mmo"]:checked ~ div[id="mmoPanel"],
 .panels > input[id="mobile"]:checked ~ div[id="mobilePanel"],
 .panels > input[id="multiplayer"]:checked ~ div[id="multiplayerPanel"],
-.panels > input[id="platform"]:checked ~ div[id="platformPanel"]
-.panels > input[id="puzzle"]:checked ~ div[id="puzzlePanel"]
-.panels > input[id="sports"]:checked ~ div[id="sportsPanel"]
+.panels > input[id="platform"]:checked ~ div[id="platformPanel"],
+.panels > input[id="puzzle"]:checked ~ div[id="puzzlePanel"],
+.panels > input[id="racing"]:checked ~ div[id="racingPanel"],
+.panels > input[id="shooters"]:checked ~ div[id="shootersPanel"],
+.panels > input[id="sports"]:checked ~ div[id="sportsPanel"],
 .panels > input[id="strategy"]:checked ~ div[id="strategyPanel"]
 {
     display: flex;
