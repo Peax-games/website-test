@@ -3,7 +3,7 @@ import './Landing.css';
 import Chat from '../Chat/Chat';
 
 import VideoSlider from './VideoSlider';
-
+import GameSelector from './GenreSelector';
 
 class Landing extends Component {
     constructor() {
@@ -56,6 +56,39 @@ class Landing extends Component {
         //     </div>
         //     <div className="right-arrow" onClick={() => this.slideRight()}></div>
         // </div>
+        // <h3 className="game-list-header">Games</h3>
+        //         <div className="game-list-container" >
+        //             <a href="/lobby:pong" style={{ textDecoration: 'none' }}>
+        //                 <div className="game-container">
+        //                     <div className="listed-game-1-pong"></div>
+        //                     <div className="game-text">Pong</div>
+        //                 </div>
+        //             </a>
+        //             <a href="/lobby:maze2d" style={{ textDecoration: 'none' }}>
+        //                 <div className="game-container">
+        //                     <div className="listed-game-2-cyberorb"></div>
+        //                     <div className="game-text">Cyber Orb</div>
+        //                 </div>
+        //             </a>
+        //             <a href="/lobby:tanks" style={{ textDecoration: 'none' }}>
+        //                 <div className="game-container">
+        //                     <div className="listed-game-3-tanks"></div>
+        //                     <div className="game-text">Tanks</div>
+        //                 </div>
+        //             </a>
+        //             <a href="/lobby:breakout" style={{ textDecoration: 'none' }}>
+        //                 <div className="game-container">
+        //                     <div className="listed-game-4-brickbreaker"></div>
+        //                     <div className="game-text">Breakout</div>
+        //                 </div>
+        //             </a>
+        //             <a href="/lobby:invaders" style={{ textDecoration: 'none' }}>
+        //                 <div className="game-container">
+        //                     <div className="listed-game-5-invader"></div>
+        //                     <div className="game-text">Invaders</div>
+        //                 </div>
+        //             </a>
+        //         </div>
         return (
             <div className="landing_main_container">
                 <VideoSlider />
@@ -63,39 +96,7 @@ class Landing extends Component {
                 <div className="landing-chat-container">
                     <Chat />
                 </div>
-                <h3 className="game-list-header">Games</h3>
-                <div className="game-list-container" >
-                    <a href="/lobby:pong" style={{ textDecoration: 'none' }}>
-                        <div className="game-container">
-                            <div className="listed-game-1-pong"></div>
-                            <div className="game-text">Pong</div>
-                        </div>
-                    </a>
-                    <a href="/lobby:maze2d" style={{ textDecoration: 'none' }}>
-                        <div className="game-container">
-                            <div className="listed-game-2-cyberorb"></div>
-                            <div className="game-text">Cyber Orb</div>
-                        </div>
-                    </a>
-                    <a href="/lobby:tanks" style={{ textDecoration: 'none' }}>
-                        <div className="game-container">
-                            <div className="listed-game-3-tanks"></div>
-                            <div className="game-text">Tanks</div>
-                        </div>
-                    </a>
-                    <a href="/lobby:breakout" style={{ textDecoration: 'none' }}>
-                        <div className="game-container">
-                            <div className="listed-game-4-brickbreaker"></div>
-                            <div className="game-text">Breakout</div>
-                        </div>
-                    </a>
-                    <a href="/lobby:invaders" style={{ textDecoration: 'none' }}>
-                        <div className="game-container">
-                            <div className="listed-game-5-invader"></div>
-                            <div className="game-text">Invaders</div>
-                        </div>
-                    </a>
-                </div>
+                <GameSelector />
             </div>
         )
     }

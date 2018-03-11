@@ -72,6 +72,7 @@ export default class VideoSlider extends Component {
         const MAINWRAPPER = {
             width: '100%',
             height: '600px',
+            overflow: 'hidden',
 
         }
         const CIRCLESDIV = {

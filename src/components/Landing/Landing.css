@@ -211,6 +211,57 @@ height: 60px;
 width: 105px;
 }
 
+/* used to select genres on landing */
+/* hides paragraphs */
+.panels > div{
+    display:none;
+}
+
+/* used for highlighting selected tab */
+.panels >input[id="newGames"]:checked ~ nav label[for="newGames"],
+.panels >input[id="action"]:checked ~ nav label[for="action"],
+.panels >input[id="adventure"]:checked ~ nav label[for="adventure"],
+.panels >input[id="arcade"]:checked ~ nav label[for="arcade"],
+.panels >input[id="board"]:checked ~ nav label[for="board"],
+.panels >input[id="card"]:checked ~ nav label[for="card"],
+.panels >input[id="mmo"]:checked ~ nav label[for="mmo"],
+.panels >input[id="mobile"]:checked ~ nav label[for="mobile"],
+.panels >input[id="multiplayer"]:checked ~ nav label[for="multiplayer"],
+.panels >input[id="platform"]:checked ~ nav label[for="platform"]
+.panels >input[id="puzzle"]:checked ~ nav label[for="puzzle"]
+.panels >input[id="sports"]:checked ~ nav label[for="sports"]
+.panels >input[id="strategy"]:checked ~ nav label[for="strategy"]
+{
+    background-color: yellow;
+    color: black;
+}
+
+.panels > input[id="newGames"]:checked ~ div[id="newGamesPanel"],
+.panels > input[id="action"]:checked ~ div[id="actionPanel"],
+.panels > input[id="adventure"]:checked ~ div[id="adventurePanel"],
+.panels > input[id="arcade"]:checked ~ div[id="arcadePanel"],
+.panels > input[id="board"]:checked ~ div[id="boardPanel"],
+.panels > input[id="card"]:checked ~ div[id="cardPanel"],
+.panels > input[id="mmo"]:checked ~ div[id="mmoPanel"],
+.panels > input[id="mobile"]:checked ~ div[id="mobilePanel"],
+.panels > input[id="multiplayer"]:checked ~ div[id="multiplayerPanel"],
+.panels > input[id="platform"]:checked ~ div[id="platformPanel"]
+.panels > input[id="puzzle"]:checked ~ div[id="puzzlePanel"]
+.panels > input[id="sports"]:checked ~ div[id="sportsPanel"]
+.panels > input[id="strategy"]:checked ~ div[id="strategyPanel"]
+{
+    display: flex;
+    width: 400px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* end of genre select css */
 
 
 /*/////////////// IPAD PRO VIEW ///////////////*/
