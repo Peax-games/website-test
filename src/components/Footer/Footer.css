@@ -23,6 +23,9 @@
 .socialness a{
     text-decoration: none;
 }
+.socialness a:hover{
+    color: #E9D758;
+}
 
 .socialness a[href*="facebook.com"]::before { content: '\f09a'; }
 .socialness a[href*="plus.google.com"]::before { content: '\f0d5'; }
