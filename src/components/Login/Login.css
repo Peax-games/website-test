@@ -13,6 +13,7 @@
 }
 
 .login-buttons {
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,9 +37,11 @@
     width: 160px;
     height: 80px;
     text-decoration: underline #5762D5;
+    cursor: pointer;
 }
 
-.guest-button {
+.guest-button { 
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
