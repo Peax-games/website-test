@@ -90,44 +90,44 @@ export default function router(showSlideMenu, closeMenu, showGameSlide, closeGam
                 <Route component={ActionGenreView} exact path="/action" />
                 <Route component={ActionGenreViewPg2} path='/action/page-2' />
                 <Route component={ActionGenreViewPg3} path='/action/page-3' />
-                <Route component={AdventureGenreView} path="/adventure" />
+                <Route component={AdventureGenreView} exact path="/adventure" />
                 <Route component={AdventureGenreViewPg2} path='/adventure/page-2' />
                 <Route component={AdventureGenreViewPg3} path='/adventure/page-3' />
-                <Route component={ArcadeGenre} path="/arcade" />
+                <Route component={ArcadeGenre} exact path="/arcade" />
                 <Route component={ArcadeGenreViewPg2} path='/arcade/page-2' />
                 <Route component={ArcadeGenreViewPg3} path='/arcade/page-3' />
-                <Route component={BoardGenreView} path="/board" />
+                <Route component={BoardGenreView} exact path="/board" />
                 <Route component={BoardGenreViewPg2} path='/board/page-2' />
                 <Route component={BoardGenreViewPg3} path='/board/page-3' />
-                <Route component={CardGenreView} path="/card" />
+                <Route component={CardGenreView} exact path="/card" />
                 <Route component={CardGenreViewPg2} path='/card/page-2' />
                 <Route component={CardGenreViewPg3} path='/card/page-3' />
-                <Route component={MMOGenreView} path="/mmo" />
+                <Route component={MMOGenreView} exact path="/mmo" />
                 <Route component={MMOGenreViewPg2} path='/mmo/page-2' />
                 <Route component={MMOGenreViewPg3} path='/mmo/page-3' />
-                <Route component={MobileGenreView} path="/mobile" />
+                <Route component={MobileGenreView} exact path="/mobile" />
                 <Route component={MobileGenreViewPg2} path='/mobile/page-2' />
                 <Route component={MobileGenreViewPg3} path='/mobile/page-3' />
-                <Route component={MultiPlayerGenre} path="/multiplayer" />
+                <Route component={MultiPlayerGenre} exact path="/multiplayer" />
                 <Route component={MultiPlayerGenrePg2} path='/multiplayer/page-2' />
                 <Route component={MultiPlayerGenrePg3} path='/multiplayer/page-3' />
-                <Route component={PlatformGenreView} path="/platform" />
+                <Route component={PlatformGenreView} exact path="/platform" />
                 <Route component={PlatformGenreViewPg2} path='/platform/page-2' />
                 <Route component={PlatformGenreViewPg3} path='/platform/page-3' />
-                <Route component={PuzzleGenre} path="/puzzle" />
+                <Route component={PuzzleGenre} exact path="/puzzle" />
                 <Route component={PuzzleGenreViewPg2} path='/puzzle/page-2' />
                 <Route component={PuzzleGenreViewPg3} path='/puzzle/page-3' />
-                <Route component={RacingGenreView} path="/racing" />
+                <Route component={RacingGenreView} exact path="/racing" />
                 <Route component={RacingGenreViewPg2} path='/racing/page-2' />
                 <Route component={RacingGenreViewPg3} path='/racing/page-3' />
-                <Route component={ShootersGenereView} path="/shooters" />
+                <Route component={ShootersGenereView} exact path="/shooters" />
                 <Route component={ShootersGenereViewPg2} path='/shooters/page-2' />
                 <Route component={ShootersGenereViewPg3} path='/shooters/page-3' />
-                <Route component={SideScrollGenre} path="/sidescroll" />
-                <Route component={SportsGenreView} path="/sports" />
+                <Route component={SideScrollGenre} exact path="/sidescroll" />
+                <Route component={SportsGenreView} exact path="/sports" />
                 <Route component={SportsGenreViewPg2} path='/sports/page-2' />
                 <Route component={SportsGenreViewPg3} path='/sports/page-3' />
-                <Route component={StrategyGenreView} path="/strategy" />
+                <Route component={StrategyGenreView} exact path="/strategy" />
                 <Route component={StrategyGenreViewPg2} path='/strategy/page-2' />
                 <Route component={StrategyGenreViewPg3} path='/strategy/page-3' />
 
