@@ -17,8 +17,8 @@ export default function MobileGenreView() {
                 <Link to="/mobile/page-3">&raquo;</Link>
             </div>
             <div className="gamesArea">
-                <a href="#"><div>
-                    <h5>Coming Soon...</h5>
+                <a href="/lobby:maze2d"><div>
+                    <h5>Cyber Orb</h5>
                     <img src={comingsoon} />
                 </div>
                 </a>

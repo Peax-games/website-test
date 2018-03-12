@@ -17,18 +17,18 @@ export default function ShootersGenreView() {
                 <Link to="/shooters/page-3">&raquo;</Link>
             </div>
             <div className="gamesArea">
-                <a href="#"><div>
-                    <h5>Coming Soon...</h5>
+                <a href="/lobby:defender"><div>
+                    <h5>Defender</h5>
                     <img src={comingsoon} />
                 </div>
                 </a>
-                <a href="#"><div>
-                    <h5>Coming Soon...</h5>
+                <a href="/lobby:tanks"><div>
+                    <h5>Tanks</h5>
                     <img src={comingsoon} />
                 </div>
                 </a>
-                <a href="#"><div>
-                    <h5>Coming Soon...</h5>
+                <a href='/lobby:tanks-two'><div>
+                    <h5>Tank Two</h5>
                     <img src={comingsoon} />
                 </div>
                 </a>

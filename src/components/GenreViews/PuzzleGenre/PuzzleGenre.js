@@ -24,29 +24,29 @@ export default function PuzzleGenre(){
                 <Link to="/puzzle/page-3">&raquo;</Link>
             </div>
             <div className="gamesArea">
-                <a href="#"><div>
-                    <h5>Coming Soon...</h5>
-                    <img src={comingsoon} />
+                <a href="/lobby:gemmatch"><div>
+                    <h5>Gemmatch</h5>
+                    <img src={gemmatch} />
                 </div>
                 </a>
-                <a href="#"><div>
-                    <h5>Coming Soon...</h5>
-                    <img src={comingsoon} />
+                <a href="/lobby:matching-pairs"><div>
+                    <h5>Matching Pairs</h5>
+                    <img src={memory} />
                 </div>
                 </a>
-                <a href="#"><div>
-                    <h5>Coming Soon...</h5>
-                    <img src={comingsoon} />
+                <a href="/lobby:simon"><div>
+                    <h5>Simon</h5>
+                    <img src={simon} />
                 </div>
                 </a>
-                <a href="#"><div>
-                    <h5>Coming Soon...</h5>
-                    <img src={comingsoon} />
+                <a href="/lobby:sliding-puzzle"><div>
+                    <h5>Sliding Puzzle</h5>
+                    <img src={slidingpuzzle} />
                 </div>
                 </a>
-                <a href="#"><div>
-                    <h5>Coming Soon...</h5>
-                    <img src={comingsoon} />
+                <a href="/lobby:match-three"><div>
+                    <h5>Match Three</h5>
+                    <img src={Match3} />
                 </div>
                 </a>
                 <a href="#"><div>

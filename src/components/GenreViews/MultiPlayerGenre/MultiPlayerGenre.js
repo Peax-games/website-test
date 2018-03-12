@@ -22,9 +22,9 @@ export default function MultiPlayerGenreView() {
             <Link to="/multiplayer/page-3">&raquo;</Link>
         </div>
         <div className="gamesArea">
-            <a href="#"><div>
-                <h5>Coming Soon...</h5>
-                <img src={comingsoon} />
+            <a href="/lobby:ships"><div>
+                <h5>Ships</h5>
+                <img src={ships} />
             </div>
             </a>
             <a href="#"><div>
