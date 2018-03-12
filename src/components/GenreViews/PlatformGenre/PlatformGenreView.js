@@ -17,8 +17,8 @@ export default function PlatformGenreView() {
                 <Link to="/platform/page-3">&raquo;</Link>
             </div>
             <div className="gamesArea">
-                <a href="#"><div>
-                    <h5>Coming Soon...</h5>
+                <a href="/lobby:star-platformer"><div>
+                    <h5>Star Platformer</h5>
                     <img src={comingsoon} />
                 </div>
                 </a>

@@ -17,8 +17,8 @@ export default function ActionGenreView() {
                 <Link to="/action/page-3">&raquo;</Link>
             </div>
             <div className="gamesArea">
-                <a href="#"><div>
-                    <h5>Coming Soon...</h5>
+                <a href="/lobby:monster-candy"><div>
+                    <h5>Monster Candy</h5>
                     <img src={comingsoon} />
                 </div>
                 </a>

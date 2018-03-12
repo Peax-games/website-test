@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './ArcadeGenre.css';
 import { Link } from 'react-router-dom';
 import '../genreViews.css';
@@ -17,26 +17,72 @@ import cyberorb from './../../../Pictures/cyberorbjpeg.jpg';
 import snake from './../../../Pictures/snakejpeg.jpg';
 
 
-class ArcadeGenre extends Component {
-    render(){
+export default function ArcadeGenre(){
         return (
             <div className="arcade-root">
-                <p className="arcade-genre-header">Arcade Games</p>
-                <div className="arcade-game-container">
-                <a href="/lobby:pong"><div className="arcadelink" onClick={this.props.closeGameMenu}><img src={pong}/>Pong</div></a>
-                <a href="/lobby:invaders"><div className="arcadelink"onClick={this.props.closeGameMenu}><img src={invaders1}/>Invaders</div></a>
-                <a href="/lobby:invaders-two"><div className="arcadelink" onClick={this.props.closeGameMenu}><img src={invaders2}/>Invaders 2</div></a>
-                <a href="/lobby:match-three"><div className="arcadelink" onClick={this.props.closeGameMenu}><img src={Match3}/>Match Three</div></a>
-                <a href="/lobby:asteroids"><div className="arcadelink" onClick={this.props.closeGameMenu}><img src={asteroids}/>Asteroids</div></a>
-                <a href="/lobby:breakout"><div  className="arcadelink" onClick={this.props.closeGameMenu}><img src={breakout}/>Breakout</div></a>
-                <a href="/lobby:gemmatch"><div className="arcadelink" onClick={this.props.closeGameMenu}><img src={gemmatch}/>Gem Match</div></a>
-                <a href="/lobby:defender"><div className="arcadelink" onClick={this.props.closeGameMenu}><img src={defender}/>Defender</div></a>
-                <a href="/lobby:maze2d"><div className="arcadelink" onClick={this.props.closeGameMenu}><img src={cyberorb}/>Cyber Orb</div></a>
-                <a href="/lobby:snake"><div className="arcadelink" onClick={this.props.closeGameMenu}><img src={snake}/>Snake</div></a>
-                </div>
+            <p className="arcade-genre-header">Arcade Games Pg. 1</p>
+            <div className="genreViewPageLinks">
+                <Link to="/arcade">&laquo;</Link>
+                <Link className="active" to="/arcade">1</Link>
+                <Link to="/arcade/page-2">2</Link>
+                <Link to="/arcade/page-3">3</Link>
+                <Link to="/arcade/page-3">&raquo;</Link>
             </div>
-        )
-    }
+            <div className="gamesArea">
+                <a href="/lobby:pong"><div>
+                    <h5>Pong</h5>
+                    <img src={pong} />
+                </div>
+                </a>
+                <a href="/lobby:snake"><div>
+                    <h5>Snake</h5>
+                    <img src={snake} />
+                </div>
+                </a>
+                <a href="/lobby:asteroids"><div>
+                    <h5>Asteroids</h5>
+                    <img src={asteroids} />
+                </div>
+                </a>
+                <a href="/lobby:breakout"><div>
+                    <h5>Breakout</h5>
+                    <img src={breakout} />
+                </div>
+                </a>
+                <a href="/lobby:invaders-two"><div>
+                    <h5>Invaders-Two</h5>
+                    <img src={invaders2} />
+                </div>
+                </a>
+                <a href="/lobby:tetris"><div>
+                    <h5>Tetris</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+                <a href="/lobby:brickbreaker"><div>
+                    <h5>Brick-Breaker</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+                <a href="/lobby:invaders"><div>
+                    <h5>Invaders</h5>
+                    <img src={invaders2} />
+                </div>
+                </a>
+                <a href="#"><div>
+                    <h5>Coming Soon...</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+            </div>
+            <div className="genreViewPageLinks">
+                <Link to="/arcade">&laquo;</Link>
+                <Link  className="active" to="/arcade">1</Link>
+                <Link to="/arcade/page-2">2</Link>
+                <Link to="/arcade/page-3">3</Link>
+                <Link to="/arcade/page-3">&raquo;</Link>
+            </div>
+            <div className='spacer'></div>
+        </div>
+    )
 }
-
-export default ArcadeGenre;

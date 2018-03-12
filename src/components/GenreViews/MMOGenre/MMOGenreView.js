@@ -18,7 +18,7 @@ export default function MMOGenreView() {
             </div>
             <div className="gamesArea">
                 <a href="#"><div>
-                    <h5>Coming Soon...</h5>
+                    <h5>Peax Quest</h5>
                     <img src={comingsoon} />
                 </div>
                 </a>
