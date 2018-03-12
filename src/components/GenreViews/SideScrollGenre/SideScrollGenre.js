@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 import './SideScrollGenre.css';
+import { Link } from 'react-router-dom';
+import '../genreViews.css';
+
+import comingsoon from '../../../Pictures/comingsoon.png';
+
 import star from './../../../Pictures/starjpeg.jpg';
 import tanks1 from './../../../Pictures/tanks1jpeg.jpg';
 

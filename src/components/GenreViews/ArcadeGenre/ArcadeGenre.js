@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 import './ArcadeGenre.css';
+import { Link } from 'react-router-dom';
+import '../genreViews.css';
+
+import comingsoon from '../../../Pictures/comingsoon.png';
+
 import breakout from './../../../Pictures/breakoutjpeg.jpg';
 import gemmatch from './../../../Pictures/gemmatchjpeg.jpg';
 import pong from './../../../Pictures/ponggamejpeg.jpg';

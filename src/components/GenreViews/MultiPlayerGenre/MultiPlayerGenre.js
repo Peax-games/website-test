@@ -1,22 +1,81 @@
 import React, {Component} from 'react';
 import './MultiPlayerGenre.css';
+import { Link } from 'react-router-dom';
+import '../genreViews.css';
+
+import comingsoon from '../../../Pictures/comingsoon.png';
+
 import ships from './../../../Pictures/shipsjpeg.jpg';
 import tanks1 from './../../../Pictures/tanks1jpeg.jpg';
 import tanks2 from './../../../Pictures/tanks2jpeg.jpg';
 
-class MultiPlayerGenre extends Component {
-    render(){
-        return (
-            <div className="multi-player-root">
-                <p className="multiplayer-genre-header">Multi-Player Games</p>
-                <div className="multiplayer-game-container">
-                    <a href="/lobby:ships"><div className="multiplayerlink" onClick={this.props.closeGameMenu}><img src={ships}/>Ships</div></a>
-                    <a href="/lobby:tanks"><div className="multiplayerlink" onClick={this.props.closeGameMenu}><img src={tanks1}/>Tanks</div></a>
-                    <a href="/lobby:tanks-two"><div className="multiplayerlink" onClick={this.props.closeGameMenu}><img src={tanks2}/>Tanks 2</div></a>
-                </div>
-            </div>
-        )
-    }
-}
+export default function MultiPlayerGenreView() {
 
-export default MultiPlayerGenre;
+    return (
+        <div className="arcade-root">
+        <p className="arcade-genre-header">Multiplayer Games Pg. 1</p>
+        <div className="genreViewPageLinks">
+            <Link to="/multiplayer">&laquo;</Link>
+            <Link className="active" to="/multiplayer">1</Link>
+            <Link to="/multiplayer/page-2">2</Link>
+            <Link to="/multiplayer/page-3">3</Link>
+            <Link to="/multiplayer/page-3">&raquo;</Link>
+        </div>
+        <div className="gamesArea">
+            <a href="#"><div>
+                <h5>Coming Soon...</h5>
+                <img src={comingsoon} />
+            </div>
+            </a>
+            <a href="#"><div>
+                <h5>Coming Soon...</h5>
+                <img src={comingsoon} />
+            </div>
+            </a>
+            <a href="#"><div>
+                <h5>Coming Soon...</h5>
+                <img src={comingsoon} />
+            </div>
+            </a>
+            <a href="#"><div>
+                <h5>Coming Soon...</h5>
+                <img src={comingsoon} />
+            </div>
+            </a>
+            <a href="#"><div>
+                <h5>Coming Soon...</h5>
+                <img src={comingsoon} />
+            </div>
+            </a>
+            <a href="#"><div>
+                <h5>Coming Soon...</h5>
+                <img src={comingsoon} />
+            </div>
+            </a>
+            <a href="#"><div>
+                <h5>Coming Soon...</h5>
+                <img src={comingsoon} />
+            </div>
+            </a>
+            <a href="#"><div>
+                <h5>Coming Soon...</h5>
+                <img src={comingsoon} />
+            </div>
+            </a>
+            <a href="#"><div>
+                <h5>Coming Soon...</h5>
+                <img src={comingsoon} />
+            </div>
+            </a>
+        </div>
+        <div className="genreViewPageLinks">
+            <Link to="/multiplayer">&laquo;</Link>
+            <Link className="active" to="/multiplayer">1</Link>
+            <Link to="/multiplayer/page-2">2</Link>
+            <Link to="/multiplayer/page-3">3</Link>
+            <Link to="/multiplayer/page-3">&raquo;</Link>
+        </div>
+        <div className='spacer'></div>
+    </div>
+)
+}

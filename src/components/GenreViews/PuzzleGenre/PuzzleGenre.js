@@ -1,26 +1,83 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './PuzzleGenre.css';
+import { Link } from 'react-router-dom';
+import '../genreViews.css';
+
+import comingsoon from '../../../Pictures/comingsoon.png';
+
 import Match3 from './../../../Pictures/Match 3jpeg.jpg';
 import gemmatch from './../../../Pictures/gemmatchjpeg.jpg';
 import memory from './../../../Pictures/memoryjpeg.jpg';
 import simon from './../../../Pictures/simonjpeg.jpg';
 import slidingpuzzle from './../../../Pictures/slidingpuzzlejpeg.jpg';
 
-class PuzzleGenre extends Component {
-    render(){
-        return (
-            <div className="puzzle-root">
-                <p className="puzzle-genre-header">Puzzle Games</p>
-                <div className="puzzle-game-container">
-                    <a href="/lobby:match-three"><div className="puzzlelink" onClick={this.props.closeGameMenu}><img src={Match3}/>Match Three</div></a>
-                    <a href="/lobby:gemmatch"><div className="puzzlelink" onClick={this.props.closeGameMenu}><img src={gemmatch}/>Gem Match</div></a>
-                    <a href="/lobby:matching-pairs"><div className="puzzlelink" onClick={this.props.closeGameMenu}><img src={memory}/>Memory</div></a>
-                    <a href="/lobby:simon"><div className="puzzlelink" onClick={this.props.closeGameMenu}><img src={simon}/>Simon</div></a>
-                    <a href="/lobby:sliding-puzzle"><div className="puzzlelink" onClick={this.props.closeGameMenu}><img src={slidingpuzzle}/>Sliding Puzzle</div></a>
-                </div>
-            </div>
-        )
-    }
-}
+export default function PuzzleGenre(){
 
-export default PuzzleGenre;
+        return (
+            <div className="arcade-root">
+            <p className="arcade-genre-header">Puzzle Games Pg. 1</p>
+            <div className="genreViewPageLinks">
+                <Link to="/puzzle">&laquo;</Link>
+                <Link className="active" to="/puzzle">1</Link>
+                <Link to="/puzzle/page-2">2</Link>
+                <Link to="/puzzle/page-3">3</Link>
+                <Link to="/puzzle/page-3">&raquo;</Link>
+            </div>
+            <div className="gamesArea">
+                <a href="#"><div>
+                    <h5>Coming Soon...</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+                <a href="#"><div>
+                    <h5>Coming Soon...</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+                <a href="#"><div>
+                    <h5>Coming Soon...</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+                <a href="#"><div>
+                    <h5>Coming Soon...</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+                <a href="#"><div>
+                    <h5>Coming Soon...</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+                <a href="#"><div>
+                    <h5>Coming Soon...</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+                <a href="#"><div>
+                    <h5>Coming Soon...</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+                <a href="#"><div>
+                    <h5>Coming Soon...</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+                <a href="#"><div>
+                    <h5>Coming Soon...</h5>
+                    <img src={comingsoon} />
+                </div>
+                </a>
+            </div>
+            <div className="genreViewPageLinks">
+                <Link to="/puzzle">&laquo;</Link>
+                <Link className="active" to="/puzzle">1</Link>
+                <Link to="/puzzle/page-2">2</Link>
+                <Link to="/puzzle/page-3">3</Link>
+                <Link to="/puzzle/page-3">&raquo;</Link>
+            </div>
+            <div className='spacer'></div>
+        </div>
+    )
+}
