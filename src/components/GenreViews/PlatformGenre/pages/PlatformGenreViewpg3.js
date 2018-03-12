@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-export default function SportsGenreView() {
+export default function PlatformGenreViewpg3() {
 
     return (
         <div className="arcade-root">
-            <p className="arcade-genre-header">Sports Games</p>
+            <p className="arcade-genre-header">Platform Games pg. 3</p>
             <div>
             </div>
 

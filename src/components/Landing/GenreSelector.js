@@ -454,7 +454,7 @@ export default function GameSelector() {
                     <img src={comingsoon} />
                 </div>
                 </a>
-                <Link to='#'><p>Check Out More Strategy Games...</p></Link>
+                <Link to='/strategy'><p>Check Out More Strategy Games...</p></Link>
 
             </div>
         </div>
