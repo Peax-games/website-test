@@ -68,7 +68,7 @@ class EditProfile extends Component {
             bio: this.state.aboutMe,
             img: this.state.img,
             auth_id: this.state.user
-        }).then(window.location.replace('http://localhost:3001/profile'))
+        }).then(window.location.replace('/profile'))
     }
 
     setUsername(value) {
