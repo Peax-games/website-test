@@ -1,6 +1,7 @@
 import bootState from './States/boot';
 import loadState from './States/load';
 import menuState from './States/menu';
+import difficultyState from './States/difficulty';
 import playState from './States/play';
 import winState from './States/win';
 import loseState from './States/lose';
@@ -15,6 +16,7 @@ export default function Pong() {
     game.state.add('boot', bootState);
     game.state.add('load', loadState);
     game.state.add('menu', menuState);
+    game.state.add('difficulty', difficultyState);
     game.state.add('play', playState);
     game.state.add('win', winState);
     game.state.add('lose', loseState);

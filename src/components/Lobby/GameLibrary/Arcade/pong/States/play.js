@@ -82,10 +82,10 @@ export default function playState() {
 
         },
         Win: function () {
-            this.game.state.start('win');
+            this.game.state.start('win', true, false, {multiplier: aiMaxSpeed});
         },
         Lose: function () {
-            this.game.state.start('lose');
+            this.game.state.start('lose', true, false, {multiplier: aiMaxSpeed});
         },
         createPaddle: function (x, y) {
             var paddle = this.game.add.sprite(x, y, 'paddle');
